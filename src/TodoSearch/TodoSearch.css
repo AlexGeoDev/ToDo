@@ -1,26 +1,4 @@
-/* .TodoSearch {
-  border-radius: 7px;
-  margin: 0 24px 24px 24px;
-  height: 64px;
-  width: calc(100% - 62px);
-  font-size: 24px;
-  text-align: center;
-  font-family: 'Monserrat';
-  font-weight: 400;
-}
-
-.TodoSearch::placeholder {
-  color: #a5a5a5;
-  font-family: 'Monserrat';
-  font-weight: 400;
-}
-
-.TodoSearch:focus {
-  outline-color: #FF5252;
-} */
-
 .form-control {
-  border: 1px red solid;
   width: 100%;
   height: 64px;
   margin: 0 auto;

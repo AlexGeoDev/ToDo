@@ -1,3 +1,22 @@
-.cont {
-  border: 1px red solid;
+.container-comp {
+  width: 85vw;            
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container-comp {
+    width: 80vw;
+  }
+  .todoButton {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-comp {
+    width: 900px;
+  }
 }

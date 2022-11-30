@@ -1,0 +1,31 @@
+.LoadingTodo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background-size: 400% 400%;
+    animation: loadingAnimation 2s easi-in-out infinite;
+}
+
+.LoadingTodo-text {
+    margin: 24px 0px;
+    width: calc(100% - 120px);
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
