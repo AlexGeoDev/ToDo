@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/geo-app/static/css/main.c3f7b915.css",
+    "main.js": "/geo-app/static/js/main.33c65064.js",
+    "index.html": "/geo-app/index.html",
+    "main.c3f7b915.css.map": "/geo-app/static/css/main.c3f7b915.css.map",
+    "main.33c65064.js.map": "/geo-app/static/js/main.33c65064.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3f7b915.css",
+    "static/js/main.33c65064.js"
+  ]
+}
